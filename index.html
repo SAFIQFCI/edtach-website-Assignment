@@ -10,6 +10,8 @@
     <!--Bootstrap link-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2ffe035b52.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -17,37 +19,37 @@
     <header class="container">
         <!--Navbar section stert -->
         <section class="">
-            <nav class="navbar navbar-expand-lg m-5 ">
+            <nav class="navbar navbar-expand-lg my-2 ">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
-                        <h1>Pro Edo</h1>
+                        <h1 class="fw-bold">Pro Edo</h1>
                     </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse " id="navbarNav">
+                    <div class="collapse navbar-collapse gap-5 " id="navbarNav">
                         <ul class="navbar-nav mx-auto ">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Courses</a>
+                                <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#successfull">Success</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link" href="#register">Register</a>
                             </li>
                         </ul>
-                        <button class="btn btn-outline-info" type="Register">Register</button>
+                        <button class="btn btn-outline-info fw-bold" type="Register">Register</button>
                     </div>
                 </div>
                 </div>
@@ -61,26 +63,26 @@
                     <div class="carousel-item active">
                         <img src="images/cover/cover-1.png" class="d-block w-100 opacity-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button type="button" class="btn btn-primary">Primary</button>
+                            <h1 class="display-2 fw-bold">First slide label</h1>
+                            <h4>Some representative placeholder content for the first slide.</h4>
+                            <button type="button" class="btn btn-primary btn-lg">Primary</button>
                         </div>
 
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-1.png" class="d-block w-100 opacity-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button type="button" class="btn btn-primary">Primary</button>
+                            <h1 class="display-2 fw-bold">First slide label</h1>
+                            <h4>Some representative placeholder content for the first slide.</h4>
+                            <button type="button" class="btn btn-primary btn-lg">Primary</button>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/cover/cover-1.png" class="d-block w-100 opacity-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                            <button type="button" class="btn btn-primary">Primary</button>
+                            <h1 class="display-2 fw-bold">First slide label</h1>
+                            <h4>Some representative placeholder content for the first slide.</h4>
+                            <button type="button" class="btn btn-primary btn-lg">Primary</button>
                         </div>
                     </div>
                 </div>
@@ -102,123 +104,129 @@
     <!-- main ster-->
     <main class="container pt-5 mt-5">
         <div class="text-center">
-            <h1>Discover Our Popular <br> Courses</h1>
+            <h1 class="fs-1 fw-bold text-primary">Discover Our Popular <br> Courses</h1>
             <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
                 when looking at its layout.</p>
         </div>
         <!-- Card section ster -->
-        <section>
+        <section id="courses">
             <div class="container overflow-hidden ">
                 <div class="row gy-5">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-1 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-1.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-2 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-2.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-3 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-3.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-4 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-4.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-5 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-5.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
                         <!-- card-6 -->
-                        <div class="card mb-3" style="max-width: 540px;">
+                        <div class="card mb-3">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                                    <img src="images/course/course-6.png" class="img-fluid w-100 rounded-start"
+                                        alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <h4 class="card-title">Fundamental Of UI/UX Design</h4>
+                                        <h4 class="card-title fw-bold">Fundamental Of UI/UX Design</h4>
                                         <p class="card-text"><small>Some quick example text to build on the card title
                                                 and make
                                                 up the bulk of the card.</small></p>
-                                        <h5 class="text-info">Price : 20$</h5>
+                                        <h5 class="text-info fw-bold">Price : 20$</h5>
                                     </div>
                                 </div>
                             </div>
@@ -226,62 +234,278 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-info m-5 px-5 py-2">See More Courses</button>
+                    <button type="button" class="btn btn-info m-5 px-5 py-2 fw-bold text-light">See More
+                        Courses</button>
 
                 </div>
             </div>
         </section>
         <!-- Card section end -->
         <!-- Explore section stert -->
-        <section>
+        <section id="">
             <div class="container p-5">
                 <div class="row gx-5">
                     <div class="col">
                         <div class="card mb-3">
                             <div class="row g-0">
-                                <div class="col-md-6">
-                                    <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+                                <div class="col-lg-5 col-sm-12">
+                                    <img src="images/working.png" class="img-fluid w-100 rounded-start" alt="...">
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="card-body mt-5 pt-5 ">
-                                        <h2 class="card-title">Explore The elearning Institute</h2>
+                                <div class="col-lg-7 p-3 d-flex flex-column justify-content-center align-items-center">
+                                    <div class="">
+                                        <h2 class="card-title fs-1 fw-bold ">Explore The elearning Institute</h2>
                                         <p class="card-text">There are many variations of passages of Lorem Ipsum
                                             available, but the majority have suffered alteration in some form, by
                                             injected humour, or randomised words which don't look even slightly
-                                            believable. If you are going to use a passage of Lorem Ipsum, you need to be
-                                            sure. <br>                       Anything embarrassing hidden in the middle of text. All the Lorem
+                                            believable. If you are going to use a passage of Lorem Ipsum, you need
+                                            to be
+                                            sure. <br> Anything embarrassing hidden in the middle of text. All the
+                                            Lorem
                                             Ipsum generators on the Internet tend to repeat predefined.</p>
                                         <!-- gutter react -->
-                                    </div>     
-                                        <div class="container px-4 text-center row gx-5">
-                                            <div class="col">
+                                        <div class=" row">
+                                            <div class="col-lg-4 col-sm-6 col-md-6">
                                                 <div class="p-3">
-                                                    <h2>3.2k+</h2>
+                                                    <h2 class="fs-1 fw-bold ">4.4k+</h2>
                                                     <p>Online Course</p>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg-4 col-sm-6 col-md-6">
                                                 <div class="p-3">
-                                                    <h2>3.2k+</h2>
-                                                    <p>Online Course</p>
+                                                    <h2 class="fs-1 fw-bold ">8.3k+</h2>
+                                                    <p>Expert member</p>
                                                 </div>
                                             </div>
-                                            <div class="col">
+                                            <div class="col-lg-4 col-sm-6 col-md-6 ">
                                                 <div class="p-3">
-                                                    <h2>3.2k+</h2>
-                                                    <p>Online Course</p>
+                                                    <h2 class="fs-1 fw-bold ">1.2k+</h2>
+                                                    <p>Rating & Review</p>
                                                 </div>
                                             </div>
                                         </div>
+                                        <a href=""><button type="button"
+                                                class="btn btn-info btn-lg fw-bold text-light">Read More</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
+        <!-- Explore section end -->
+        <!-- Register stert -->
+        <div class="row g-0 bg-info m-5 p-5 " id="register">
+            <div class="col-sm-6 col-md-6 text-light">
+                <h2 class="fs-1 fw-bold ">Ready to join?</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div class="col-6 col-md-6">
+                <button type="button" class="btn btn-light text-info">Register Now</button>
+            </div>
+        </div>
+        <!-- Register end -->
+        <!-- student section stert -->
+        <section class="containar" id="successfull">
+            <div class=" mx-2 my-5">
+                <h2 class="fs-1 fw-bold">Meet Our Successfull <br> Students</h2>
+                <p>It is a long established fact that a reader will be distracted by <br> the readable content of a page
+                    when looking at its layout.</p>
+            </div>
+            <!-- Student start -->
+            <div class=" text-center">
+                <div class="row gx-5">
+                    <!-- Student 1 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="m-2 border bg-light">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Awlad Hossain</h5>
+                                <p>UIUX Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Studwent 2 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="m-2 border bg-light">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Jannatul Islam</h5>
+                                <p>Motion Design</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Studwent 3 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="m-2 border bg-light">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Imran Hossain</h5>
+                                <p>Graphic Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Studwent 4 -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="m-2 border bg-light">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5>Nishi Akter</h5>
+                                <p>Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Student end -->
+            <div class="d-flex justify-content-center my-5">
+                <a href=""><button type="button" class="btn btn-info px-4 py-2 text-light">View All</button></a>
+            </div>
+        </section>
+        <!-- student section end -->
+        <!-- Feedback section stert -->
+        <section class="container my-5">
+            <div class="text-center py-5">
+                <h1 class="fs-1 fw-bold">Some Students Feedback</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
+                    when looking at its layout.</p>
+            </div>
+
+        </section>
+        <!-- Feedback section end -->
+        <!-- Questions section stert -->
+        <section class="container">
+            <div class="text-center">
+                <h1 class="fs-1 fw-bold">Frequently Asked Questions</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable <br> content of a page
+                    when looking at its layout.</p>
+            </div>
+            <!-- Accordion stert  -->
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+                <!--  Accordion Item 1 -->
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">What other services are you compatible with?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                        aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                            <strong>This is the first item's accordion body.</strong> It is shown by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion Item 2 -->
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            I have a technical i need resolved, who do i email?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!-- Accordion Item 3 -->
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            What other services are you compatible with?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+                <!--  Accordion Item 4 -->
+                <div class="accordion-item my-5">
+                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            What other services are you compatible with?
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Accordion end  -->
+        </section>
+        <!-- Questions section end -->
+        <!-- companies section stert-->
+        <section class="container display-none md-d-inline-block  my-5 py-5">
+            <div class="text-center py-5">
+                <h1 class="fs-1 fw-bold text-primary">Trusted by over 800+ companies</h1>
+            </div>
+            <div class="d-flex justify-content-center gap-5">
+                <img src="images/company/company-1.png" alt="">
+                <img src="images/company/company-2.png" alt="">
+                <img src="images/company/company-3.png" alt="">
+                <img src="images/company/company-4.png" alt="">
+                <img src="images/company/company-5.png" alt="">
+                <img src="images/company/company-6.png" alt="">
+            </div>
+        </section>
+        <!-- companies section end-->
     </main>
+    <!-- footer stert-->
+    <footer>
+        <div class="card bg-dark text-light py-5">
+            <div class="card-body text-center">
+                <h2 class="fs-1 fw-bold">Pro Edu</h2>
+                <p>Office 41, Zawaya Buildin, Ghala Muscat Sultanate of Oman</p>
+                <a href="#" class="text-warning">Privacy Ploicy</a>
+                |
+                <a href="#" class="text-warning">Terms of use</a>
+            </div>
+            <div class="d-flex justify-content-center gap-4">
 
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""> <i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
 
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
 
 
 
